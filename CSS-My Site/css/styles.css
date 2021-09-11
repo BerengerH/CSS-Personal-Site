@@ -1,0 +1,128 @@
+/* **********************TAG SELECTOR********************** */
+body {
+  margin: 0;
+  font-family: "Merriweather", serif;
+  color: #40514e;
+  text-align: center;
+}
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: "Dancing Script", cursive;
+  font-size: 5rem;
+  color: #66bfbf;
+  line-height: 0.5;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  color: #66bfbf;
+  font-weight: bold;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #11999e;
+}
+hr {
+  color: #eaf6f6;
+  width: 10%;
+  border-style: dotted;
+  border-width: 0.5rem 0rem 0rem 0rem;
+  margin: 100px auto;
+}
+p{
+  line-height: 2;
+}
+a{
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:hover{
+  color: #eaf6f6;
+}
+
+
+/* **********************CLASS SELECTOR********************** */
+
+.bottom-container {
+  background-color: #66bfbf;
+  position: static;
+  padding: 20px 0px;
+}
+.contact-me {
+  width: 50%;
+  margin: 100px auto 100px auto;
+}
+.contact-button {
+  border-radius: 20px;
+  color: #eaf6f6;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  padding: 15px;
+  background-color: #66bfbf;
+  box-shadow: 1px 1px 5px 0 #66bfbf;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 40px;
+}
+.contact-button:hover {
+  background: #11999e;
+}
+.copy-right {
+  color: #eaf6f6;
+  padding: 20px 0 5px 0;
+  margin: 0;
+  font-size: 0.7rem;
+}
+.footer-link {
+  color: #11999e;
+  margin-bottom: 40px;
+}
+.middle-container {
+}
+.profile {
+  width: 50%;
+  margin: auto;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: justify;
+}
+.top-container {
+  background-color: #eaf6f6;
+  position: relative;
+  padding: 100px 0px;
+  margin-bottom: 50px;
+}
+
+
+/* **********************IMAGES CLASS SELECTOR********************** */
+
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+  bottom: 400px;
+}
+.language-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.profile-img {
+  width: 20%;
+}
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 200px;
+}
+.training-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
